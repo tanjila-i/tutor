@@ -4,7 +4,7 @@ import { tutors } from "../assets/assets";
 export const AppContext = createContext();
 
 export const AppContextProvider = (props) => {
-  const backendUrl = import.meta.env.BACKEND_URL;
+  const backendUrl = "https://tutor-backend-6djl.onrender.com;
   const [token, setToken] = useState(
     localStorage.getItem("token") ? localStorage.getItem("token") : false
   );
